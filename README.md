@@ -1,6 +1,7 @@
 # Weather App
 
 This is a simple Weather App created using HTML, CSS, and JavaScript. It allows users to check the current weather conditions for a specific location.
+Link to the Website: [Weather-App](https://mshazim.github.io/Weather-App/)
 
 ## Features
 
