@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "https://img.icons8.com/fluency/48/partly-cloudy-day.png" type = "image/x-icon">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- HEADING -->
+    <header>
+        <h1>Weather App</h1>
+    </header>
+
+    <!-- Weather Card -->
+    <section>
+        
+        <div class="card" id="middle-card">
+            <div class="search">
+                <input type="text" placeholder="Enter city name.. " >
+                <button><img src="Icons/search.png" id="search-icon"></button>
+            </div>
+
+            <div class="error">
+                <img src="Icons/error.png" alt="">
+                <p>Invalid City Name..</p>
+            </div>
+
+            <div class="weather" id="card1">
+                <h3 class="date">MAY 21</h3>
+                <img src="Icons/drizzle.png" class="weather-icon">
+                <h4 class="weather-status">Raining</h4>
+                <h1 class="temp">22°c</h1>
+                <h2 class="city">Karachi</h2>
+
+                <div class="details">
+                    <div class="col">
+                        <img src="Icons/humidity.png" alt="">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="Icons/wind.png" alt="">
+                        <div>
+                            <p class="wind">15 Km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer Note -->
+    <footer>Developed By MShazim | GitHub </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+/* Overall Setting of Webpage */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Product sans','Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* -----------------Body of Page------------------------------ */
+body{
+    background: url(Icons/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* -----------------Heading------------------------------ */
+header{
+    width: auto;
+    margin-top: 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 60px;
+    color: #fff;
+}
+
+/* -----------------Overall Weather Card------------------------------ */
+.card{
+    width: 70%;
+    max-width: 470px;
+    background-image: linear-gradient(#44A08D,#093637);
+    color: #fff;
+    margin: 50px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+/* -----------------Search Section------------------------------ */
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    color: #555;
+    padding: 10px 20px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+    
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search img{
+    width: 20px;
+}
+
+/* -----------------Section Element------------------------------ */
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+/* -----------------Weather Card------------------------------ */
+.date{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.weather-icon{
+    width: 170px;
+    margin: 30px 30px 20px 30px;
+}
+
+.weather h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.weather h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 20px;
+}
+
+.weather{
+    display: none;
+}
+
+/* -----------------Error Element------------------------------ */
+.error img{
+    width: 170px;
+    margin: 30px 30px 20px 30px;
+}
+
+.error{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    display: none;
+}
+
+/* -----------------Footer Element------------------------------ */
+footer{
+    margin-top: auto;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
