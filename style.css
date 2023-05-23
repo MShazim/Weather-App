@@ -8,7 +8,7 @@
 
 /* -----------------Body of Page------------------------------ */
 body{
-    background: url(Icons/bg.jpg) no-repeat center center fixed;
+    background: url(Images/bg.jpg) no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     display: flex;

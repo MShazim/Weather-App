@@ -39,21 +39,21 @@ async function checkWeather(city){
 
         //Conditions for the Weather Status Icon
         if(data.weather[0].main == "Clouds"){
-            weatherIcon.src = "Icons/clouds.png";
+            weatherIcon.src = "Images/clouds.png";
         }else if(data.weather[0].main == "Clear"){
-            weatherIcon.src = "Icons/clear.png";
+            weatherIcon.src = "Images/clear.png";
         }else if(data.weather[0].main == "Rain"){
-            weatherIcon.src = "Icons/rain.png";
+            weatherIcon.src = "Images/rain.png";
         }else if(data.weather[0].main == "Drizzle"){
-            weatherIcon.src = "Icons/drizzle.png";
+            weatherIcon.src = "Images/drizzle.png";
         }else if(data.weather[0].main == "Mist"){
-            weatherIcon.src = "Icons/mist.png";
+            weatherIcon.src = "Images/mist.png";
         }else if(data.weather[0].main == "Thunderstorm"){
-            weatherIcon.src = "Icons/thunderstorm.png";
+            weatherIcon.src = "Images/thunderstorm.png";
         }else if(data.weather[0].main == "Haze"){
-            weatherIcon.src = "Icons/haze.png";
+            weatherIcon.src = "Images/haze.png";
         }else if(data.weather[0].main == "Snow"){
-            weatherIcon.src = "Icons/snow.png";
+            weatherIcon.src = "Images/snow.png";
         }
 
         //Hides the Error Block from HTML And Display The Data
