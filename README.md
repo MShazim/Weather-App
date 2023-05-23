@@ -10,7 +10,7 @@ This is a simple Weather App created using HTML, CSS, and JavaScript. It allows 
 
 ## Screenshots
 
-![Screenshot 1](/Icons/Screenshot.png)
+![Screenshot 1](/Images/Screenshot.png)
 
 ## Getting Started
 
